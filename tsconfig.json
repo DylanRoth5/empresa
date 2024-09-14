@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "es2022",
+    "target": "es2017",
+    "lib": ["es2020", "dom"], // Added "dom" for browser APIs like setTimeout
+    "strict": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "ts-built",
+    "rootDir": "src"
+  }
+}
